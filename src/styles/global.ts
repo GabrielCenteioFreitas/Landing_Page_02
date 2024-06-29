@@ -15,6 +15,7 @@ export const GlobalStyle = createGlobalStyle`
     --white: #FFFFFF;
     --black: #172026;
     --gray: #36485C;
+    --purple: #4328EB;
   }
 
   body {
@@ -24,14 +25,20 @@ export const GlobalStyle = createGlobalStyle`
     main {
       max-width: 144rem;
       margin: 0 auto;
-
-      a {
-        text-decoration: none;
-      }
     }
   }
 
   body * {
     font-family: 'Inter', sans-serif;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
   }
 `
