@@ -11,18 +11,27 @@ export const GlobalStyle = createGlobalStyle`
 
   :root {
     font-size: 62.5%;
+
+    --white: #FFFFFF;
+    --black: #172026;
+    --gray: #36485C;
   }
 
   body {
     font-size: 1.6rem;
+    background-color: var(--white);
+
+    main {
+      max-width: 144rem;
+      margin: 0 auto;
+
+      a {
+        text-decoration: none;
+      }
+    }
   }
 
   body * {
     font-family: 'Inter', sans-serif;
-  }
-
-  main {
-    max-width: 144rem;
-    margin: 0 auto;
   }
 `
