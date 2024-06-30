@@ -1,9 +1,4 @@
-type Link = {
-  label: string;
-  href: string;
-}
-
-export const links: Link[] = [
+export const links: TLink[] = [
   {
     "label": "Features",
     "href": "#",

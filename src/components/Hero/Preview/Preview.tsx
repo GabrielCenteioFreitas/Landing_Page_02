@@ -1,6 +1,6 @@
 import { Container } from "./styles";
-import MobilePreview from '../../../assets/preview-mobile.png'
-import WebPreview from '../../../assets/preview-web.png'
+import MobilePreview from '@/assets/preview-mobile.png'
+import WebPreview from '@/assets/preview-web.png'
 
 export const Preview = () => {
   return (

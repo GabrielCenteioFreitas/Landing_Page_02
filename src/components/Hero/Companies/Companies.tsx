@@ -1,9 +1,9 @@
 import { Container } from "./styles";
-import Google from "../../../assets/logos/google.svg";
-import Slack from "../../../assets/logos/slack.svg";
-import Trustpilot from "../../../assets/logos/trustpilot.svg";
-import CNN from "../../../assets/logos/cnn.svg";
-import Clutch from "../../../assets/logos/clutch.svg";
+import Google from "@/assets/logos/google.svg";
+import Slack from "@/assets/logos/slack.svg";
+import Trustpilot from "@/assets/logos/trustpilot.svg";
+import CNN from "@/assets/logos/cnn.svg";
+import Clutch from "@/assets/logos/clutch.svg";
 
 export const Companies = () => {
   return (

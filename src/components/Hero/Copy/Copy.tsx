@@ -1,5 +1,5 @@
-import { ArrowIcon } from "../../ArrowIcon/ArrowButton";
-import { PrimaryButton } from "../../Buttons/PrimaryButton/PrimaryButton";
+import { ArrowIcon } from "@/components/ArrowIcon/ArrowButton";
+import { PrimaryButton } from "@/components/Buttons/PrimaryButton/PrimaryButton";
 import { Container } from "./styles";
 
 export const Copy = () => {

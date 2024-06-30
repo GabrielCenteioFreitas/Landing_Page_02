@@ -1,4 +1,4 @@
-import UserPortrait from '../../../assets/user-portrait.svg'
+import UserPortrait from '@/assets/user-portrait.svg'
 import { Container } from './styles';
 
 export const SignIn = () => {

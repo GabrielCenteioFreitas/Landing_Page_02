@@ -1,7 +1,7 @@
 import { AccountLinksContainer, Container, MenuContainer } from "./styles";
 
-import Logo from '../../assets/logo.svg'
-import { links } from "../../constants/links";
+import Logo from "@/assets/logo.svg";
+import { links } from "@/constants/links";
 import { SignIn } from "./SignIn/SignIn";
 
 export const Header = () => {
@@ -14,7 +14,7 @@ export const Header = () => {
 
         <nav>
           <ul>
-            {links.map((link) => 
+            {links.map((link: TLink) => 
               <li key={link.label}>
                 <a href={link.href}>
                   {link.label}
