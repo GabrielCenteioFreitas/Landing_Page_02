@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import { colors } from "../constants/colors";
 
 export const GlobalStyle = createGlobalStyle`
   * {
@@ -12,11 +13,9 @@ export const GlobalStyle = createGlobalStyle`
   :root {
     font-size: 62.5%;
 
-    --white: #FFFFFF;
-    --black: #172026;
-    --gray: #36485C;
-    --light-gray: #5F7896;
-    --purple: #4328EB;
+    ${Object.keys(colors).map(color => 
+      `--${color}: ${colors[color]};`
+    )}
   }
 
   body {

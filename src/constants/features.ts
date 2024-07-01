@@ -1,6 +1,8 @@
+import { colors } from "./colors";
+
 export const features: TFeature[] = [
   {
-    color: "#0085FF",
+    color: colors.blue,
     feature: "Sales Monitoring",
     title: "Simplify your sales monitoring",
     text: "Stay on top of things and revamp your work process with our game-changing feature. Get a bird's eye view with our customizable dashboard. ",
@@ -16,7 +18,7 @@ export const features: TFeature[] = [
     },
   },
   {
-    color: "#00A424",
+    color: colors.green,
     feature: "Customer Support",
     title: "Get in touch with your customers",
     text: "Stay on top of things and revamp your work process with our game-changing feature. Get a bird's eye view with our customizable dashboard. ",
@@ -32,7 +34,7 @@ export const features: TFeature[] = [
     },
   },
   {
-    color: "#EB2891",
+    color: colors.pink,
     feature: "Growth Monitoring",
     title: "Monitor your site’s new subscribers ",
     text: "Stay on top of things and revamp your work process with our game-changing feature. Get a bird's eye view with our customizable dashboard. ",

@@ -1,6 +1,7 @@
 import { ArrowIcon } from "@/components/ArrowIcon/ArrowButton";
 import { PrimaryButton } from "@/components/Buttons/PrimaryButton/PrimaryButton";
 import { Container } from "./styles";
+import { colors } from "../../../constants/colors";
 
 export const Copy = () => {
   return (
@@ -17,16 +18,16 @@ export const Copy = () => {
       <div>
         <PrimaryButton
           text="Try for free"
-          textColor="#FFFFFF"
-          bgColor="#4328EB"
+          textColor={colors.white}
+          bgColor={colors.purple}
         />
 
         <a href="#">
           View Pricing
 
           <ArrowIcon
-            arrowColor="#4328EB"
-            bgColor="#D5CFFA50"
+            arrowColor={colors.purple}
+            bgColor={`${colors.purple}15`}
           />
         </a>
       </div>
