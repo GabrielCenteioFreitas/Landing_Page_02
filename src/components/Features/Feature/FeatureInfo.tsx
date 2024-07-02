@@ -1,12 +1,12 @@
 import { FeatureInfoContainer } from "./styles";
 
 export interface FeatureInfoProps {
-  feature: {
-    color: string;
-    feature: string;
-    title: string;
-    text: string;
-  }
+  feature: Pick<TFeature,
+    'color' |
+    'feature' |
+    'title' |
+    'text'
+  >
 }
 
 export const FeatureInfo = ({ feature }: FeatureInfoProps) => {

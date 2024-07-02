@@ -13,8 +13,8 @@ export const GlobalStyle = createGlobalStyle`
   :root {
     font-size: 62.5%;
 
-    ${Object.keys(colors).map(color => 
-      `--${color}: ${colors[color]};`
+    ${Object.entries(colors).map(([key, value]) => 
+      `--${key}: ${value};`
     )}
   }
 

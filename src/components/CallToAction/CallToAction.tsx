@@ -17,16 +17,16 @@ export const CallToAction = () => {
       <div>
         <PrimaryButton
           text="Try for free"
-          bgColor={colors['white']}
-          hoverBgColor={colors['lightPink']}
-          textColor={colors['pink']}
+          bgColor={colors.white}
+          hoverBgColor={colors.lightPink}
+          textColor={colors.pink}
         />
 
         <a href="#">
           Contact Sales
           <ArrowIcon
-            arrowColor={colors['pink']}
-            bgColor={colors['white']}
+            arrowColor={colors.pink}
+            bgColor={colors.white}
           />
         </a>
       </div>

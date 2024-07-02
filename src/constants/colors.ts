@@ -5,6 +5,7 @@ type Colors = {
   gray: string;
   lightGray: string;
   blue: string;
+  lightBlue: string;
   green: string;
   purple: string;
   pink: string;
@@ -18,6 +19,7 @@ export const colors: Colors = {
   "gray": "#36485C",
   "lightGray": "#5F7896",
   "blue": "#0085FF",
+  "lightBlue": "#E3F1FF",
   "green": "#00A424",
   "purple": "#4328EB",
   "pink": "#EB2891",
