@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const ButtonContainer = styled.button<{
   bgColor: string;
+  hoverBgColor?: string;
   textColor: string;
 }>`
   padding: 1.6rem 3.2rem;
@@ -11,4 +12,14 @@ export const ButtonContainer = styled.button<{
   font-weight: 500;
   font-size: 1.8rem;
   color: ${props => props.textColor};
+  transition: all .3s;
+
+  &:hover {
+    ${props => props.hoverBgColor
+      ?
+      `background-color: ${props.hoverBgColor};`
+      :
+      `filter: brightness(125%);`
+    }
+  }
 `

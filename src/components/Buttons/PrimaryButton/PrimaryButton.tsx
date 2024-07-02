@@ -4,11 +4,16 @@ interface PrimaryButtonProps {
   text: string;
   textColor: string;
   bgColor: string;
+  hoverBgColor?: string;
 }
 
-export const PrimaryButton = ({ text, textColor, bgColor }: PrimaryButtonProps) => {
+export const PrimaryButton = ({ text, textColor, bgColor, hoverBgColor }: PrimaryButtonProps) => {
   return (
-    <ButtonContainer textColor={textColor} bgColor={bgColor}>
+    <ButtonContainer
+      textColor={textColor}
+      bgColor={bgColor}
+      hoverBgColor={hoverBgColor}
+    >
       {text}
     </ButtonContainer>
   );

@@ -78,7 +78,7 @@ export const FeatureStatisticsContainer = styled.div`
 
     span:nth-child(2) {
       font-size: 1.8rem;
-      color: var(--light-gray);
+      color: var(--lightGray);
     }
   }
 `
