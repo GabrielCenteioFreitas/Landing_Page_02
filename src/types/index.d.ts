@@ -21,3 +21,13 @@ declare type TFeature = {
     position: 'left' | 'right';
   };
 };
+
+declare type TPlan = {
+  title: string;
+  subtitle: string;
+  price: string;
+  buttonText: string;
+  type: 'primary' | 'ghost';
+  benefits?: string[];
+  text?: string[];
+}

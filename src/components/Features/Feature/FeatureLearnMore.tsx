@@ -1,4 +1,4 @@
-import { ArrowIcon } from "../../ArrowIcon/ArrowButton";
+import { ArrowIcon } from "../../Icons/ArrowIcon/ArrowButton";
 import { FeatureLearnMoreContainer } from "./styles";
 
 export interface FeatureLearnMoreProps {

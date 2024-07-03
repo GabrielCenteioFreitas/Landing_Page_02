@@ -8,6 +8,7 @@ type Colors = {
   lightBlue: string;
   green: string;
   purple: string;
+  lightPurple: string;
   pink: string;
   lightPink: string;
 }
@@ -22,6 +23,7 @@ export const colors: Colors = {
   "lightBlue": "#E3F1FF",
   "green": "#00A424",
   "purple": "#4328EB",
+  "lightPurple": "#F5F4FF",
   "pink": "#EB2891",
   "lightPink": "#FDE7F3",
 }

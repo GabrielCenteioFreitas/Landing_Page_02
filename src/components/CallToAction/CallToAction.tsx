@@ -1,6 +1,6 @@
 import { colors } from "../../constants/colors";
-import { ArrowIcon } from "../ArrowIcon/ArrowButton";
 import { PrimaryButton } from "../Buttons/PrimaryButton/PrimaryButton";
+import { ArrowIcon } from "../Icons/ArrowIcon/ArrowButton";
 import { Container } from "./styles";
 
 export const CallToAction = () => {

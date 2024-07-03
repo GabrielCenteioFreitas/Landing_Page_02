@@ -4,6 +4,7 @@ import { Features } from "./components/Features/Features"
 import { Footer } from "./components/Footer/Footer"
 import { Header } from "./components/Header/Header"
 import { Hero } from "./components/Hero/Hero"
+import { Plans } from "./components/Plans/Plans"
 import { Testimonials } from "./components/Testimonials/Testimonials"
 import { GlobalStyle } from "./styles/global"
 
@@ -20,6 +21,8 @@ function App() {
         <Testimonials />
 
         <FAQ />
+
+        <Plans />
 
         <CallToAction />
       </main>

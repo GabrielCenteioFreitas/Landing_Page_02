@@ -1,4 +1,4 @@
-import { ArrowIcon } from "@/components/ArrowIcon/ArrowButton";
+import { ArrowIcon } from "@/components/Icons/ArrowIcon/ArrowButton";
 import { PrimaryButton } from "@/components/Buttons/PrimaryButton/PrimaryButton";
 import { Container } from "./styles";
 import { colors } from "../../../constants/colors";
