@@ -1,30 +1,65 @@
-# React + TypeScript + Vite
+<h1 align="center">Landing Page</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <a alt="ReactJS">
+    <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" />
+  </a>
+  <a alt="Vite">
+    <img src="https://img.shields.io/badge/Vite-646CFF.svg?style=for-the-badge&logo=Vite&logoColor=white" />
+  </a>
+  <a alt="TypeScript">
+    <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" />
+  </a>
+  <a alt="Styled Components">
+    <img src="https://img.shields.io/badge/styledcomponents-DB7093.svg?style=for-the-badge&logo=styled-components&logoColor=white" />
+  </a>
+</p>
 
-Currently, two official plugins are available:
+<br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<div align="center">
+  
+  [<img alt="Preview do projeto." src=".github/preview.gif" width="100%">](https://landing-page-02-pi.vercel.app/)
+</div>
 
-## Expanding the ESLint configuration
+<h4 align="center">
+  
+  [Ver projeto](https://landing-page-02-pi.vercel.app/)
+</h4>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<br>
 
-- Configure the top-level `parserOptions` property like this:
+<p align="center">
+  <a href="#projeto">Sobre o projeto</a> •
+  <a href="#tecnologias">Tecnologias</a>
+</p>
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## 💻 Sobre o projeto<a id="projeto"></a>
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+O projeto é uma Landing Page desenvolvida com o objetivo de aprimorar habilidades nas tecnologias ReactJS, Vite e Styled Components e no Composition Pattern.
+
+Caso queira ver o projeto, clique [aqui](https://landing-page-02-pi.vercel.app/).
+
+## 🚀 Tecnologias<a id="tecnologias"></a>
+
+O projeto foi desenvolvido com as seguintes tecnologias:
+
+- ReactJS
+- Vite
+- Typescript
+- Styled Components
+
+## 🤝 Contribuições
+
+Issues e pull requests são muito bem-vindos!
+
+## 👨🏻‍💻 Autor: Gabriel Centeio Freitas 
+
+<p align="left">
+  <a alt="Github" href="https://github.com/GabrielCenteioFreitas/">
+    <img src="https://img.shields.io/badge/GITHUB-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a alt="Linkedin" href="https://www.linkedin.com/in/gabrielcenteiofreitas/">
+    <img src="https://img.shields.io/badge/LINKEDIN-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+</p>
