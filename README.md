@@ -31,7 +31,8 @@
 
 <p align="center">
   <a href="#projeto">Sobre o projeto</a> •
-  <a href="#tecnologias">Tecnologias</a>
+  <a href="#tecnologias">Tecnologias</a> •
+  <a href="#layout">Layout</a>
 </p>
 
 ## 💻 Sobre o projeto<a id="projeto"></a>
@@ -48,6 +49,10 @@ O projeto foi desenvolvido com as seguintes tecnologias:
 - Vite
 - Typescript
 - Styled Components
+
+## 🔖 Layout<a id="layout"></a>
+
+Você pode visualizar o layout do projeto clicando [aqui](https://www.figma.com/community/file/1328257564171258838).
 
 ## 🤝 Contribuições
 
